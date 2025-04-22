@@ -21,7 +21,7 @@ MT = [[1,    2,   3,   1,  LSP,RSP,END,  5,   0,    0,  7], # Estado inicial
       [7,    2,   7,   7, NUM , NUM, 7,  7, NUM ,NUM ,  7], # Estado de construccion de numero
       [7,    7,   7,   4,  ERR,  ERR,  7,  7,  ERR,  ERR,  7], # Estado de inicio de booleano
       [7,    7,   7,   7, BOOL, BOOL,  7,  7,BOOL,BOOL, 7], # Estado de bool valido
-      [5,    5,   7,   5,  ERR, ERR, ERR,  6,  5, ERR, ERR], # Estado de construccion de string
+      [5,    5,   7,   5,  ERR, ERR, ERR,  6,  5, ERR, 7], # Estado de construccion de string
       [7,    7,   7,   7, STR,  STR,  7,  7, STR, STR,  7], # Estado de string valido
       [7,    7,   7,   7, ERR,  ERR,  7,  7, ERR, ERR,  7]] # Estado de error
 

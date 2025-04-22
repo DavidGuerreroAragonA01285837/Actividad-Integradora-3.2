@@ -1,0 +1,35 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+.str {
+    color: gray;
+}
+
+.num {
+    color: green;
+}
+
+.bool {
+    color: purple;
+}
+
+.err {
+    color: red;
+}
+
+.lsp {
+    color: red;
+    font-weight: bold;
+}
+
+.rsp {
+    color: red;
+    font-weight: bold;
+}
+
+.end {
+    color: cyan;
+    font-weight: bold;
+}
